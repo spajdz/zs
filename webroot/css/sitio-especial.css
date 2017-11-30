@@ -1,0 +1,284 @@
+/**
+ * Para le generacion de archivos pdf, se utiliza la libreria de cakepdf con
+ * DomPdf, la cual no es compatible con algunos estilos, por ende este archivo
+ * contiene esos estilo.
+ *
+ * date: 03 Marzo 2016
+ */
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+.menu-lateral ul li a.active {
+  background-color: #234fae;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.menu-lateral ul li a.active i {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.menu-lateral ul li .sub-menu {
+  background-color: #eee;
+}
+.menu-lateral ul li .sub-menu .active {
+  color: #fff;
+  background-color: #8fa3f0;
+  border-radius: 0;
+}
+.menu-lateral ul li .sub-menu .active i {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.menu-lateral ul li .sub-menu li .sub-menu .active {
+  color: #fff;
+}
+.menu-lateral ul li .sub-menu li .sub-menu .active i {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.menu-lateral ul li .sub-menu li .sub-menu li ul a.active {
+  color: #234fae !important;
+  background-color: #d3dbf9 !important;
+}
+.cont-pasos .pasos-carro.active {
+  background-color: #234fae;
+  padding-bottom: 20px !important;
+}
+.cont-pasos .pasos-carro.active h3 span {
+  background-color: #f6ba00;
+}
+.pasos-carro.active.primero {
+    margin-left: -15px;
+}
+.star-rating input:hover + i{
+  opacity: 1;
+}
+.btn-correo-convenio:hover {
+  background-color: #04B404;
+  color: #fff;
+}
+.menu-principal > li > a:hover,
+.menu-principal > li > a.current {
+  background-color: #234fae !important;
+  color: #fff !important;
+}
+.menu-principal > li > .convenio:hover{
+  background-color: #FED500 !important;
+  color: #fff !important;
+}
+.menu-principal li.menu01 a:hover {
+  background-color: #234fae !important;
+  color: #fff !important;
+}
+.menu-principal li.menu01 .sub-categoria ul li a:hover {
+  background-color: #3e61e6 !important;
+  color: #fff !important;
+}
+.menu-principal li.menu02 a:hover {
+  background-color: #e61f08;
+  color: #fff !important;
+}
+.menu-principal li.menu02 .sub-categoria ul li a:hover {
+  background-color: #fb978c !important;
+  color: #fff !important;
+}
+.menu-principal li.menu04 a:hover {
+  background-color: #f6ba00;
+  color: #fff !important;
+}
+.menu-principal li.menu04 .sub-categoria ul li a:hover {
+  background-color: #f6ba00 !important;
+  color: #fff !important;
+}
+.nav-top ul li a:hover {
+  color: #ccc;
+}
+.carousel-caption a:hover {
+  background-color: #10267b;
+}
+.log .log-correo .btn-correo:hover {
+  background-color: #906d00;
+}
+.log .log-fb .btn-fb:hover {
+  background-color: #122859;
+}
+.novedades .ver-mas:hover {
+  background-color: #906d00;
+}
+.caja-gris h2 :hover {
+  color: #234fae;
+}
+.caja-gris a.agregar:hover {
+  background-color: #122859;
+}
+footer ul li a:hover {
+    color: #f6ba00;
+}
+footer h3 a:hover {
+  color: #f6ba00;
+}
+footer p a:hover {
+  color: #f6ba00;
+}
+.inicio .iniciar:hover {
+  background-color: #122859;
+}
+.inicio .olvido:hover {
+  color: #555;
+}
+.reg .registrate:hover {
+  background-color: #122859;
+}
+.registro-fb .btn-fb:hover {
+  background-color: #122859;
+}
+.agregar-colegio .btn-fb:hover {
+  background-color: #122859;
+}
+.btn-celeste:hover {
+  background-color: #122859;
+}
+.menu-lateral ul li a:hover {
+  /*background-color: #234fae;*/
+  background-color: #ccc;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.menu-lateral ul li .sub-menu a:hover {
+  color: #fff;
+  border-radius: 0;
+}
+.menu-lateral ul li .sub-menu li .sub-menu a:hover {
+  color: #fff !important;
+}
+.menu-lateral ul li .sub-menu li .sub-menu li ul a:hover {
+  color: #234fae !important;
+  background-color: #d3dbf9 !important;
+}
+.caja-catalogo4 .equis:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+.caja-catalogo4 .agregar:hover {
+  background-color: #122859;
+}
+.caja-catalogo12 .agregar:hover {
+  background-color: #122859;
+}
+.caja-categoria .agregar:hover {
+  background-color: #122859;
+}
+.filtros .orden:hover {
+  color: #e61f08;
+}
+.filtros .orden-caja:hover {
+  color: #e61f08;
+}
+.catalogo-ficha .btn-fb:hover {
+  background-color: #122859;
+}
+.catalogo-ficha button.btn-agregar:hover {
+  background-color: #122859;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+  color: #f6ba00;
+}
+.fondo-layer .agregar-carro a.btn:hover {
+  background-color: #122859;
+}
+.fondo-layer .agregar-carro .equis:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+.fondo-mensajes .mensajes a.btn:hover {
+  background-color: #122859;
+}
+.fondo-mensajes .mensajes .equis:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+.fondo-layer-eliminar .eliminar-carro a.btn:hover {
+  background-color: #122859;
+}
+.fondo-layer-eliminar .eliminar-carro .equis:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+#no-more-tables .link:hover {
+  color: #122859;
+}
+#no-more-tables .equis:hover {
+  color: #e61f08;
+}
+a.btn:hover,
+input.btn:hover {
+  background-color: #122859;
+  color: #fff;
+}
+a.btn.deporte:hover,
+input.btn.deporte:hover {
+  background-color: #831205;
+  color: #fff;
+}
+a.btn.bits:hover,
+input.btn.bits:hover {
+  background-color: #906d00;
+  color: #fff;
+}
+.right .vaciar:hover {
+  color: #234fae;
+}
+.cabecera-colegio .equis:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+.cabecera-colegio.resultado .equis:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+.cabecera-colegio.resultado .edit:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+.cabecera-colegio-reserva .equis:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+.cabecera-colegio-reserva.resultado .equis:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+.cabecera-colegio-reserva.resultado .edit:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+ul.dropdown-menu.mi-menu a:hover {
+    background-color: #98abf2 !important;
+    color: #fff;
+    width: 100%;
+}
+ul.dropdown-menu.mi-menu a.logout:hover {
+    background-color: #e61f08 !important;
+    color: #fff;
+    width: 100%;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.pointer{
+  cursor: pointer;
+}
+

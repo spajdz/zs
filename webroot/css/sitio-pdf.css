@@ -1,0 +1,106 @@
+
+.contenedor-pdf {
+  width: 670px;
+  margin: 25px auto;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido-pdf{
+	margin: 20px 25px;
+}
+
+.titulo-pdf{
+	text-align: center;
+	height: 50px;
+	background-color: #2C5496;
+	color: #FFFFFF;
+}
+
+.titulo-pdf p{
+	margin-top: 10px;
+}
+
+.datos-cotizante{
+	padding-top: 25px;
+}
+
+.datos-cotizante .titulo{
+	margin-left: 25px;
+}
+
+.datos-cotizante .item{
+	width: 25%;
+}
+
+.datos-cotizante .item-dato{
+	width: 75%;
+}
+
+.img-titulo{
+	height: 65.7px;
+}
+
+.detalle-cotizacion{
+	margin-top: 30px;
+}
+
+.detalle-cotizacion table{
+	width: 100%;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+.detalle-cotizacion table th{
+	background-color: #234fae;
+    color: #fff;
+}
+
+.detalle-cotizacion table tbody{
+	display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.detalle-cotizacion table td{
+	font-size: 12px;
+    text-align: center;
+	padding: 5px;
+}
+
+.detalle-cotizacion table .nombre-producto{
+	font-size: 10px;
+}
+
+.tr-table{
+	border-bottom: solid 2px #234fae;
+	font-size: 12px;
+}
+
+.fila-finalizacion{
+	border-bottom: solid 2px #234fae;
+}
+
+.total-compra {
+  background-color: #555;
+  color: #fff;
+  font-weight: 800;
+  margin-top: 15px;
+  width: 50%;
+}
+.total-compra p {
+  margin-left: 20px;
+  padding: 20px 20px 10px;
+  font-size: 18px;
+  line-height: 13px;
+}
+
+.legal {
+  font-size: 11px;
+  padding: 10px 50px;
+  color: #555;
+  text-align: justify;
+}
+.legal h5 {
+  font-weight: 600;
+  margin: 15px 0 5px;
+}

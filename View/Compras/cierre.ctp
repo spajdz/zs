@@ -1,0 +1,1 @@
+<?= ($aceptado ? 'ACEPTADO' : 'RECHAZADO');

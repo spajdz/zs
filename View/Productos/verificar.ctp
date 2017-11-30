@@ -1,0 +1,1 @@
+<?= $this->Hookipa->productosImagen($productos);
